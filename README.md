@@ -1,0 +1,1 @@
+changed divs to semantic elements to make things more organized
