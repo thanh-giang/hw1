@@ -18,11 +18,14 @@ header {
 header h2 {
   display: inline-block;
   font-size: 48px;
+  color: #d9dcd6;
 }
 
+/*
 header h2 .seo {
   color: #d9dcd6;
 }
+*/
 
 header nav {
   padding-top: 15px;
@@ -50,6 +53,7 @@ p {
   font-size: 16px;
 }
 
+
 .hero {
   height: 800px;
   width: 100%;
@@ -58,6 +62,7 @@ p {
   background-size: cover;
   background-position: center;
 }
+
 
 .float-left {
   float: left;
@@ -160,7 +165,10 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
+.content img {
+  max-height: 200px;
+}
+/*
 .search-engine-optimization img {
   max-height: 200px;
 }
@@ -172,7 +180,12 @@ p {
 .social-media-marketing img {
   max-height: 200px;
 }
-
+*/
+.content h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/*
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -187,15 +200,16 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
+*/
 
-.footer {
+footer {
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
 
