@@ -6,7 +6,7 @@
 
 main {
   background-color: #d9dcd6;
-  padding-top: 20px;
+  padding: 20px 0 40px 0;
 }
 
 header {
@@ -19,7 +19,6 @@ header {
 header h2 {
   display: inline-block;
   font-size: 48px;
-  color: #d9dcd6;
 }
 .seo {
   color:#d9dcd6;
@@ -109,7 +108,7 @@ p {
   color: #ffffff;
 }
 */
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
 }
